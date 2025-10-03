@@ -384,5 +384,6 @@ public class Program
         orderCollection.AddOrder(homeDeliveryOrder);
 
         Console.WriteLine($"Всего заказов: {orderCollection.Count}");
+        Console.ReadKey();
     }
 }
